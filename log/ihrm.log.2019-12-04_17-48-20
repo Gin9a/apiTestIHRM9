@@ -1,0 +1,2 @@
+2019-12-04 17:48:20,044 INFO [root] [test_ihrm_login.py(test07_extra_params:58)] - 登陆接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '39e24d6d-2da3-46ce-b129-bb0f21e7cce8'}
+2019-12-04 17:48:20,139 INFO [root] [test_ihrm_login.py(test08_less_params:63)] - 登陆接口返回数据为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
