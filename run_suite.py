@@ -11,7 +11,7 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestIHRMLogin))
 suite.addTest(unittest.makeSuite(TestIHRMEmp))
 # 设置测试报告的路径和名称
-report_path = app.BASE_DIR + "/report/ihrm{}.html".format(time.strftime('%Y%m%d%H%M%S'))
+report_path = app.BASE_DIR + "/report/ihrm.html")
 with open(report_path,mode="wb")as f:
     # 实例化HTMLTestRunner
     runner = HTMLTestRunner.HTMLTestRunner(f,verbosity=1,title="IHRM人力资源管理系统接口测试报告",
